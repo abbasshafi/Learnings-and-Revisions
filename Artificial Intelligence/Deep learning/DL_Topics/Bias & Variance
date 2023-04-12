@@ -1,0 +1,26 @@
+Test error vairies greatly by selection of training data points and this is called high variance bcz of high variability in the test error.
+overfit model === high variance
+
+variance:
+the differnce of fits on different datasets 
+low difference of error means low variance
+
+
+
+
+
+
+
+
+Bias: high assumptions
+The inability of machine learning model to truly capture the relationship in the training data 
+
+
+overfit:
+good on train data but not good on test data
+low bias and high variance
+
+
+underfit: 
+cannot capture relationships in training data
+
