@@ -24,3 +24,10 @@ low bias and high variance
 underfit: 
 cannot capture relationships in training data
 
+
+ways to get balance fit model:
+
+ensemble
+cross validation
+regularization
+PCA
