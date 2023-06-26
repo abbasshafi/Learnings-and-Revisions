@@ -1,0 +1,49 @@
+﻿Statistics For Data Science Resources
+
+
+* My Course
+https://www.youtube.com/playlist?list=PLKnIA16_RmvbYFaaeLY28cWeqV-3vADST
+* My Statistics Notes
+https://drive.google.com/file/d/1qWrIsWgSUtllrlYvXOx6Y9OLzKj2NawO/view?usp=sharing
+* Best YouTube Playlists
+   * https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9
+   * https://www.youtube.com/playlist?list=PLZ2ps__7DhBYrMs3zybOqr1DzMFCX49xG
+
+
+* Best Books
+   * https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf
+   * https://github.com/varunkashyapks/Books/blob/master/Practical%20Statistics%20for%20Data%20Scientists.pdf
+   * https://greenteapress.com/thinkstats/thinkstats.pdf
+
+
+
+
+* Best Online Courses
+   * https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/
+   * https://www.udemy.com/course/statistics-probability/
+   * https://www.udemy.com/course/probability-and-statistics-for-business-and-data-science/
+   * * Best Blogs
+https://machinelearningmastery.com/category/statistical-methods/
+
+
+https://lindeloev.github.io/tests-as-linear/
+
+
+https://towardsdatascience.com/how-to-ace-data-science-interviews-statistics-f3d363ad47b
+
+
+https://github.com/khanhnamle1994/cracking-the-data-science-interview/tree/master/Cheatsheets#defining-good-hypotheses-in-a-hypothesis-test
+* Cheatsheets for Revision
+https://static1.squarespace.com/static/5a5028498a02c7e658ff8f67/t/5a84aaf8e2c4835ce8d571dd/1518643960840/Statisticssheet.pdf
+
+
+https://www.stratascratch.com/blog/a-comprehensive-statistics-cheat-sheet-for-data-science-interviews/
+
+
+https://web.stat.tamu.edu/~suhasini/teaching301/cheatsheet.pdf
+
+
+https://stanford.edu/~shervine/teaching/cme-106/cheatsheet-statistics
+
+
+https://web.mit.edu/~csvoss/Public/usabo/stats_handout.pdf
