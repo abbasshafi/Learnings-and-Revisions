@@ -20,42 +20,22 @@ chain=SimpleSequentialChain(chains=[name_chain,name_chain2])
 response=chain.run("pakistani")
 print(response)
 
+#Sequential Chain____________________________________
+from langchain.chains import SequentialChain
 
+llm=OpenAI(temperature)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-llm=OpenAI(temperature=0.6)
-
-prompt_template_name=PromptTemplate(
-    input_variable=["name"]
-    template='suggest me some fancy {name} for a restaurant.'
+prompt1=PromptTemplate(
+    input_variable=['cuisine'],
+    template='I want to make a {cuisine} restaurant. Suggest some fancy name for it.'
 )
-chan1=LLMChain(llm=llm, prompt=prompt_template_name)
+cuisine_chain=LLMChain(llm=llm,prompt=prompt1,output_key='restaurant_name')
 
-prompt_template_name2=PromptTemplate(
-    input_variable=['cuisines'],
-    template='i want to open {cuisine} restaurant suggest some well known dishes'
+prompt2=PromptTemplate(
+    input_variable=['restaurant_name'],
+    template='Suggest me some menu items for {restaurant_name}'
 )
-chan2=LLMChain(llm=llm,prompt=prompt_template_name2)
+menu_chain=LLMChain(llm=llm,prompt=prompt2,output_key='menu_items')
 
-chain=SimpleSequentialChain(chain=['chan1','chan2'])
-response=chain.run('pakistani')
-print(response)
+chain=SequentialChain(chain=[cuisine_chain,menu_chain],input_variables=[cuisine],
+                      output_variables='restaurant_names','menu_items')
