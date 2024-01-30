@@ -39,3 +39,42 @@ menu_chain=LLMChain(llm=llm,prompt=prompt2,output_key='menu_items')
 
 chain=SequentialChain(chain=[cuisine_chain,menu_chain],input_variables=[cuisine],
                       output_variables='restaurant_names','menu_items')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+llm =OpenAI(temperature=0.7)
+
+tem1=PromptTemplate(
+    input_variable=['name'],
+    template='I want to open a {name} restaurant. suggest me some good names for it.'
+)
+
+chan=LLMChain(llm=llm, prompt=tem1)
+
+tem2=PromptTemplate(
+    input_variable=['cuisine']
+    template='suggest me some menu items for {cuisine}'
+)
+chan=LLMChain(llm=llm,prompt=tem2)
+
+chain=
