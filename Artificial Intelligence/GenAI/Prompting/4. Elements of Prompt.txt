@@ -11,3 +11,8 @@ The input or question that we are interested to find a response for
 
 #Output Indicator:
 The type or format of the output.
+
+Example:
+Classify the text into neutral, negative, or positive //instruction
+Text: I think the food was okay.  //input
+Sentiment:  //output
