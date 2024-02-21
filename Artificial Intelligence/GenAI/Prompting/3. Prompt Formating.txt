@@ -1,0 +1,27 @@
+##Zero-Shot Prompting:
+You are prompting the model for a response without examples of the task you want to achieve. It depends upone the complexity and knowledge of task at hand.
+
+#Example prompt:
+-<Question>?
+-what is prompt engineering?
+
+##Few-Shot Prompting:
+ one popular and effective technique to prompting is referred to as few-shot prompting where you provide examples.
+
+#Example prompt:
+-<Question>?
+<Answer>
+
+<Question>?
+<Answer>
+
+<Question>?
+<Answer>
+
+-This is awesome! // Positive
+This is bad! // Negative
+Wow that movie was rad! // Positive
+What a horrible show! //
+
+
+Few-shot prompts enable in-context learning, which is the ability of language models to learn tasks given a few demonstrations.

@@ -1,0 +1,10 @@
+Roles:
+
+System:
+The system message is not required but helps to set the overall behavior of the assistant. 
+
+Assistant:
+The assistant message in the example above corresponds to the model response. 
+
+User:
+Used for prompting.

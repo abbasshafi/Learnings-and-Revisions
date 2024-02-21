@@ -1,0 +1,13 @@
+A prompt contains any of the following elements:
+
+#Instruction:
+A specific task or instruction you want the model to perform
+
+#Context:
+External information or additional context that can steer the model to better responses
+
+#Input Data:
+The input or question that we are interested to find a response for
+
+#Output Indicator:
+The type or format of the output.

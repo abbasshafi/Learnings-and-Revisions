@@ -1,0 +1,18 @@
+##LLM Settings:##
+
+1. Temperature:
+   Temperature controls the overall randomness of the model's output: a high temperature increases diversity but decreases predictability, while a low temperature makes outputs more predictable and less varied.
+
+2. Top-p (Nucleus Sampling):
+   Top-p (nucleus sampling) focuses on selecting words from a dynamic subset of the most probable options, where the cumulative probability exceeds a certain threshold (p). It allows for controlled diversity by excluding less likely words, maintaining a balance between creativity and relevance.
+
+3. Max Length:
+   Max Length - You can manage the number of tokens the model generates.
+
+4. Stop Sequence:
+   A stop sequence is a string that stops the model from generating tokens. Specifying stop sequences is another way to control the length and structure of the model's response. For example, you can tell the model to generate lists that have no more than 10 items by adding "11" as a stop sequence.
+
+5. Frequency Penalty:
+   The frequency penalty applies a penalty on the next token proportional to how many times that token already appeared in the response and prompt. The higher the frequency penalty, the less likely a word will appear again. This setting reduces the repetition of words in the model's response by giving tokens that appear more a higher penalty. Presence Penalty discourages the model from mentioning the same topics or entities already covered.
+
+The main difference is: Frequency Penalty targets word repetition, while Presence Penalty aims to diversify the content's topics and concepts.
