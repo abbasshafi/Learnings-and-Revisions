@@ -15,4 +15,7 @@
 5. Frequency Penalty:
    The frequency penalty applies a penalty on the next token proportional to how many times that token already appeared in the response and prompt. The higher the frequency penalty, the less likely a word will appear again. This setting reduces the repetition of words in the model's response by giving tokens that appear more a higher penalty. Presence Penalty discourages the model from mentioning the same topics or entities already covered.
 
+6. Presence Penalty:
+
+
 The main difference is: Frequency Penalty targets word repetition, while Presence Penalty aims to diversify the content's topics and concepts.
