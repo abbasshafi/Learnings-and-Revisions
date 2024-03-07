@@ -55,4 +55,6 @@ def signup(Signup:signup):
 # to execute the requirement file run command "pip3 install -r requirements.txt"
 # -create a virtual enviroment using command "python3 -m venv Signup Form-env"
 # mian.py containing the main code 
-#
+#create schemas.py and cut paste the pydantic class into the file
+# then write from . import schemas into main.py file
+# and mention the schemas in the function parameters
