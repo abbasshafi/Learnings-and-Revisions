@@ -58,3 +58,12 @@ def signup(Signup:signup):
 #create schemas.py and cut paste the pydantic class into the file
 # then write from . import schemas into main.py file
 # and mention the schemas in the function parameters
+
+
+##Database Connection
+First create database.py File 
+then write these lines of code in the file 
+"from sqlalchemy import create_engine"
+then create signup.db File
+and create the command in the database.py File
+"engine=create_engine('sqlite:// name of databasefile.db, echo=True')"
