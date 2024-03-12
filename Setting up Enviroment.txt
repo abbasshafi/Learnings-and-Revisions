@@ -1,0 +1,6 @@
+
+#To make an enviroment:
+  python -m venv name
+
+#To activate environment:
+  .\name\Scripts\activate

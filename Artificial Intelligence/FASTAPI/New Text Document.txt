@@ -1,0 +1,3 @@
+Pydantic:
+Imagine you're running a restaurant, and you have a menu with specific dishes listed. Pydantic helps you ensure that when customers order food (send requests to your API), they provide the right information in the right format.
+In short, Pydantic makes sure that the data coming into and going out of your FastAPI-based service is correct and well-organized, just like a reliable restaurant assistant helps keep orders accurate and organized in a restaurant.
