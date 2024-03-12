@@ -1,0 +1,16 @@
+
+#To make an enviroment:
+  python -m venv name
+
+#To activate environment:
+  .\name\Scripts\activate
+
+#2 Key parts to virtual environments:
+-Python version
+-Folder of third party libraries
+
+
+#make requirements.txt 
+ write all the things which needs to be installed
+ to run:
+ pip install -r requirements.txt
