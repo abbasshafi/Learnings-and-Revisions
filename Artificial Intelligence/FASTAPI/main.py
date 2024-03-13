@@ -28,6 +28,7 @@ def name(name:str):
     return {'The name of the client is':name}
 
 ##Query Parameter
+#Suppose you have an API endpoint /items that returns a list of items. You want to allow clients to filter the items based on certain criteria, such as their category or price range. You can use query parameters to achieve this.
 #if we have 1000 parameters in database we cannot fetch it as it is inefficant
 #so we provide query parameter to set a limit how much data i want to fetch
 #Use query parameters for optional filtering, sorting and selecting 
