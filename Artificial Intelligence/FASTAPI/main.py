@@ -37,6 +37,7 @@ def index():
     return {'data': 'blog list'}
 
 ##Request body
+#The request body contains the data that the client wants to send to the server.
 from pydantic import BaseModel
 class signup(BaseModel):
     first_name:str

@@ -3,9 +3,9 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# class Hello(BaseModel):
-#     name: str
-#     age: int
+class Hello(BaseModel):
+    name: str
+    location: str
 
 @app.get('/')
 async def msg():
@@ -14,7 +14,7 @@ async def msg():
 @app.get('/{name}')
 async def msg(name:str):
     if name == "abbas":
-        return "aji senga chal de"
+        return f"{name} senga chal de"
     elif name == "Majid":
         return "qarayyy senga chal de"
     elif name == "Nomi":
@@ -23,3 +23,7 @@ async def msg(name:str):
     else:
         return "Hello mate"
     
+@app.post('/people/hi')
+async def display(HelloC:Hello):
+    return HelloC
+
