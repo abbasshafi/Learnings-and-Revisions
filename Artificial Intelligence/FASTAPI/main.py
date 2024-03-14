@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-
+#WSGI is supports single request at a time while ASGI supports many requests at a time 
+#FastAPI uvicorn in ASGI
 app=FastAPI()
 
 @app.get('/')
