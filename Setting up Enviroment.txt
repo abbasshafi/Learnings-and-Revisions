@@ -4,3 +4,6 @@
 
 #To activate environment:
   .\name\Scripts\activate
+
+#to deactivate
+rmdir /s name
