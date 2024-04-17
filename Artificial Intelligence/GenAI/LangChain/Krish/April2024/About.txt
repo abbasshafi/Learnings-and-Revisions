@@ -1,0 +1,8 @@
+to run the file:
+python localLlama.py
+
+to run streamlit app:
+streamlit run localLlama.py
+
+/april2024/.env: it contains the api keys and the project names
+
