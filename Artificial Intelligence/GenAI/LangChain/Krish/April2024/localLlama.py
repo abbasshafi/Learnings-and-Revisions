@@ -9,8 +9,9 @@ from dotenv import find_dotenv,load_dotenv
 import warnings
 warnings.filterwarnings("ignore")
 
-load_dotenv(find_dotenv())
+load_dotenv()
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 # os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 
 
