@@ -16,3 +16,4 @@ arxiv
 wikipedia
 groq
 langchain-groq
+langchainhub
