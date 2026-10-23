@@ -1,2 +1,0 @@
-Vector Embeddings:
-Technique to represent information in a format that can be easily processed by algorithms.
